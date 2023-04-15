@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    }
+    .navbar ul{
+        display: flex;
+        list-style: none;
+        margin: 36px 0px;
+    }
+    .navbar ul li{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.4rem;
+        font-weight: lighter;     
+    }
+    .navbar ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 8px 25px;
+        transition: all .35s ease;
+    }
+    .navbar ul li a:hover{
+        background: linear-gradient(purple,magenta,turquoise);
+        color: black;
+        box-shadow: 0 0 10px pink;
+        font-size: 1.6rem;
+        border-radius: 40px;
+        text-shadow: white;
+        transition: 0.4s ease-in;
+    }
+    #home{
+        display: flex;
+        flex-direction: column;
+    }
+    #home::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 900px;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.8;
+     }
+     .main{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid white;
+        align-items: right;
+        position: absolute;
+        top: 30%;
+        right: 10%;
+     }
+     h1{
+        font-family: century;
+        font-size: 3rem;
+        text-align: center;
+        margin: 40px 0px;
+     }
+     .btn{
+        text-decoration: none;
+        padding: 10px 35px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: whitesmoke;
+        outline: black;
+        transition: 0.5s ease;
+        font-size: 20px;
+     }
+     .btn:hover{
+        text-decoration: none;
+        cursor: pointer;
+        background-color: chocolate;
+        box-shadow: 0 0 6px grey, 0 0 10px whitesmoke;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: aliceblue; 
+        font-size: 22px;
+    }
+    .bot:hover{
+        background-color: teal;
+        border-radius: 40px;
+        font-weight: lighter;
+        color: whitesmoke;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        transition: 0.7s ease;
+    }
+    .img{
+        position: relative;
+    }
+    
+body{
+line-height: 1.5;
+font-family: 'Poppins', sans-serif;
+}
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+.container{
+max-width: 1170px;
+margin:auto;
+}
+.row{
+display: flex;
+flex-wrap: wrap;
+}
+ul{
+list-style: none;
+}
+.footer{
+background-color: #24262b;
+padding: 70px 0;
+}
+.footer-col{
+width: 25%;
+padding: 0 15px;
+}
+.footer-col h4{
+font-size: 18px;
+color: #ffffff;
+text-transform: capitalize;
+margin-bottom: 35px;
+font-weight: 500;
+position: relative;
+}
+.footer-col h4::before{
+content: '';
+position: absolute;
+left:0;
+bottom: -10px;
+background-color: #e91e63;
+height: 2px;
+box-sizing: border-box;
+width: 50px;
+}
+.footer-col ul li:not(:last-child){
+margin-bottom: 10px;
+}
+.footer-col ul li a{
+font-size: 16px;
+text-transform: capitalize;
+color: #ffffff;
+text-decoration: none;
+font-weight: 300;
+color: #bbbbbb;
+display: block;
+transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+color: #ffffff;
+padding-left: 8px;
+}
+.footer-col .social-links a{
+display: inline-block;
+height: 40px;
+width: 40px;
+background-color: rgba(255,255,255,0.2);
+margin:0 10px 10px 0;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+color: #ffffff;
+transition: all 0.5s ease;
+text-decoration: none;
+}
+.footer-col .social-links a:hover{
+color: #24262b;
+background-color: #ffffff;
+text-decoration: none;
+}
+
+
+@media(max-width: 767px){
+.footer-col{
+width: 50%;
+margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+.footer-col{
+width: 100%;
+}
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,66,1) 57%, rgba(0,212,255,1) 100%);
+}
+.imug{
+margin-top: 60px;
+margin-left: 300px;
+width: 30%;
+height: 50vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: whitesmoke;
+border-radius: 60%;
+border: 10px solid #fff;
+}
+.imug:hover{
+width: 33%;
+height: 56vh;
+transition: 0.5s ease;
+}
+</style>
+
+<body background="black.jpg">
+    <img src="Untitled design.png" alt="" width="100" height="100" align="left" class="img">
+    <nav class="navbar">
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="About.html">About Me</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <div class="main">
+            <button class="bot"><h1>Myself<br>Samrat Singh</h1></button>
+            <button class="btn">Know More</button>
+        </div>
+
+    </section>
+    <img src="Img69.jpeg" width="300" height="300" class="imug" id="imoog">
+   <br><br><br><br><br><br><br>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Myself</h4>
+                    <ul>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">My Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Internship</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Place Order</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Gigs</h4>
+                    <ul>
+                        <li><a href="#">Web Dev</a></li>
+                        <li><a href="#">Graphic Desg.</a></li>
+                        <li><a href="#">Backend Dev.</a></li>
+                        <li><a href="#">Dropshipping</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Me</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f">YT</i></a>
+                        <a href="#"><i class="fab fa-twitter">FB</i></a>
+                        <a href="#"><i class="fab fa-instagram">IG</i></a>
+                        <a href="#"><i class="fab fa-linkedin-in">TT</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+</body>
+</html>

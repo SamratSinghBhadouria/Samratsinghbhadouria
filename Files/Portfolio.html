@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    }
+    body{
+        background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,79,45,1) 100%);
+    }
+    .navbar ul{
+        display: flex;
+        list-style: none;
+        margin: 36px 0px;
+        list-style: none;
+
+    }
+    .navbar ul li{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.4rem;
+        font-weight: lighter;  
+        list-style: none;
+
+    }
+    .navbar ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 8px 25px;
+        transition: all .35s ease;
+    }
+    .navbar ul li a:hover{
+        transition: 0.4s ease-in;
+        color: linear-gradient(red);
+        text-shadow: chartreuse;
+        box-shadow: 0 0 10px orangered;
+        font-size: 1.6rem;
+        border-radius: 40px;
+        background:linear-gradient(orange,maroon,red);
+    }
+    *{
+     margin: 0;
+     padding: 0;
+    }
+    h1{
+     align-items: center;
+     font-size: 30px;
+     color: darkorange;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     margin-top: 40px;
+    }
+    h1:hover{
+     font-size: 35px;
+     color: darkgoldenrod;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 800;
+     transition: 0.3s ease-in;
+    }
+    .cont{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 60px;
+     margin-right: 100px;     
+     margin-left: 70px;
+     padding-top: 50px; 
+     }
+     .footer{
+ background-color: #24262b;
+ padding: 70px 0;
+}
+.footer-col{
+width: 25%;
+padding: 0 15px;
+}
+.footer-col h4{
+ font-size: 18px;
+ color: #ffffff;
+ text-transform: capitalize;
+ margin-bottom: 35px;
+ font-weight: 500;
+ position: relative;
+}
+.footer-col h4::before{
+ content: '';
+ position: absolute;
+ left:0;
+ bottom: -10px;
+ background-color: #e91e63;
+ height: 2px;
+ box-sizing: border-box;
+ width: 50px;
+}
+.footer-col ul li:not(:last-child){
+ margin-bottom: 10px;
+}
+.footer-col ul li a{
+ font-size: 16px;
+ text-transform: capitalize;
+ color: #ffffff;
+ text-decoration: none;
+ font-weight: 300;
+ color: #bbbbbb;
+ display: block;
+ transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+ color: #ffffff;
+ padding-left: 8px;
+}
+.footer-col .social-links a{
+ display: inline-block;
+ height: 40px;
+ width: 40px;
+ background-color: rgba(255,255,255,0.2);
+ margin:0 10px 10px 0;
+ text-align: center;
+ line-height: 40px;
+ border-radius: 50%;
+ color: #ffffff;
+ transition: all 0.5s ease;
+ text-decoration: none;
+}
+.footer-col .social-links a:hover{
+ color: #24262b;
+ background-color: #ffffff;
+ text-decoration: none;
+}
+b{
+ color: lightslategray;
+}
+
+@media(max-width: 767px){
+.footer-col{
+ width: 50%;
+ margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+.footer-col{
+ width: 100%;
+}}
+.btn{
+ margin-left: 70px;
+}
+button{
+ font-size: 35px;
+ border-radius: 10px;
+ color: azure;
+ background-color: darkgoldenrod;
+ font-style: bold;
+ font-family: 'Times New Roman', Times, serif;
+ padding-top: 10px;
+ margin-left: 570px;
+ margin-top: 25px;
+}
+button:hover{
+ font-size: 35px;
+ border-radius: 0px;
+ color: darkgoldenrod;
+ background-color: azure;
+ font-style: normal;
+ font-family: 'Times New Roman', Times, serif;
+ transition: 0.5s ease;
+ border-color: darkgoldenrod;
+ border-width: 20px;
+}
+</style>
+<body>
+    <body background="black.jpg">
+        <img src="Untitled design.png" alt="" width="100" height="100" align="left" class="img">
+        <nav class="navbar">
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="About.html">About Me</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+       <button>My Services</button> 
+    </div>
+        <div class="cont">
+            <div class="card" style="width: 18rem;">
+                <img src="istockphoto-1358013032-170667a.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Front-end Development</h5>
+                  <p class="card-text">
+                    A front-end developer builds the front-end portion of websites and web applications—the part users see and interact with. A front-end developer creates interactive and responsive websites and applications using web languages such as HTML, CSS, and JavaScript.</p>
+                  <a href="Contact.html" class="btn btn-primary">Know More</a>
+                </div>
+              </div>
+          <div class="card" style="width: 18rem;">
+            <img src="graphic.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Graphic Designing</h5>
+              <p class="card-text">Graphic design is the process of creating visual content that helps to communicate messages with an audience. The art of visual communication is essential, especially for brands looking to connect with their target audience.</p>
+              <a href="Contact.html" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="writing.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Freelance Writing</h5>
+              <p class="card-text">A Freelance Writer is a writer who works as a self-employed contractor for an organization, as opposed to being a full- or part-time employee.Generally, freelancers work for multiple clients at the same time, handling various projects.</p>
+              <a href="Contact.html" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+        </div>
+        <br><br><br>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Myself</h4>
+                    <ul>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">My Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Internship</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Place Order</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Gigs</h4>
+                    <ul>
+                        <li><a href="#">Web Dev</a></li>
+                        <li><a href="#">Graphic Desg.</a></li>
+                        <li><a href="#">Backend Dev.</a></li>
+                        <li><a href="#">Dropshipping</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Me</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f">YT</i></a>
+                        <a href="#"><i class="fab fa-twitter">FB</i></a>
+                        <a href="#"><i class="fab fa-instagram">IG</i></a>
+                        <a href="#"><i class="fab fa-linkedin-in">TT</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+          </body>
+</body>
+</html>

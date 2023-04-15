@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me </title>
+    
+</head>
+
+<style>
+   
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,75,1) 59%, rgba(0,212,255,1) 100%);
+}
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    margin-top: 00px;
+}
+.about img{
+    height: 700px;
+    width: 550px;
+    border: 3px solid white;
+    border-radius: 270px;
+    margin-top: 10px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+max-width: 95%;
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.about-text h1{
+    color: white;
+    font-size: 80px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+span{
+    color: #f9004d;
+}
+
+.about-text p{
+    color: thistle;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+button{
+    background: black;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    font-size: 20px;
+    border: 2px solid whitesmoke;
+}
+button:hover{
+    background:transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: aliceblue;
+    background: #f9004d;
+}
+
+    .navbar{
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: sticky;
+        top: 0;
+        }
+        .navbar ul{
+            display: flex;
+            list-style: none;
+            margin: 36px 0px;
+        }
+        .navbar ul li{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.4rem;
+            font-weight: lighter;     
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 8px 25px;
+            transition: all .35s ease;
+        }
+        .navbar ul li a:hover{
+            background-color: cyan;
+            color: black;
+            box-shadow: 0 0 10px turquoise;
+            font-size: 1.6rem;
+            border-radius: 40px;
+            background: linear-gradient(chartreuse,lime,cyan);
+            text-shadow: darkolivegreen;
+            transition: 0.4s ease-in;
+        }
+        .img{
+            position: relative;
+        }
+        .container{
+	       max-width: 1170px;
+	       margin:auto;
+        }
+        .pig:hover{
+          width: 500px;
+          height: 600px;
+          transition: 0.5s ease;
+        }
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+    text-decoration: none;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+    text-decoration: none;
+}
+b{
+    color: lightslategray;
+}
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}}
+</style>
+<body background="black.jpg">
+    <img src="Untitled design.png" alt="" width="100" height="100" align="left" class="img">
+    <nav class="navbar">
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="About.html">About Me</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <section class="about">
+<div class="main">
+    <img src="Img69.jpeg" alt="" srcset="" class="pig">
+    <div class="about-text">
+<h1>About Me</h1>
+<h5>Student &  <span> Aspiring Developer</span></h5>
+<p>Hello There! My name is Samrat Singh Bhadouria.
+   I am a student of Grade-X currently studying at orchids the internationals,Indore. I am an aspiring software developer aiming to land a role at one of the <b>FAANG</b> companies.
+   Some of my hobbies are Reading and Authoring Fiction,Learning New Coding Languages,Sketching, Gouache Paints and so on..My academic records have always been stable as i had always been meritorious in my studies. Some of my other Acad honours include
+   <B>IJSO, IOQM, IOQP</B> etc. Currently I am also working on some freelance projects on Fiverr as a hobby.</p>
+    <button type="button">My Services </button>
+    </div>
+</div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Myself</h4>
+                    <ul>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">My Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Internship</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Place Order</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Gigs</h4>
+                    <ul>
+                        <li><a href="#">Web Dev</a></li>
+                        <li><a href="#">Graphic Desg.</a></li>
+                        <li><a href="#">Backend Dev.</a></li>
+                        <li><a href="#">Dropshipping</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Me</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f">YT</i></a>
+                        <a href="#"><i class="fab fa-twitter">FB</i></a>
+                        <a href="#"><i class="fab fa-instagram">IG</i></a>
+                        <a href="#"><i class="fab fa-linkedin-in">TT</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+</body>
+</html>
